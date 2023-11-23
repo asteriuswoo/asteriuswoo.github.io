@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김진우의 포트폴리오</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="김진우">김진우</h1>
+
+          <p class="title">소프트웨어학과</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>정보 보기</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">이메일</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">jinuhyhy@naver.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">번호</p>
+
+              <a href="tel:+12133522795" class="contact-link">010-1234-5678</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">생일</p>
+
+              <time datetime="1982-06-23">2000-08-18</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">대학교</p>
+
+              <address>성균관대학교</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <!-- 제목 수정 시 article의 data-page도 수정해야 함 -->
+            <button class="navbar-link  active" data-nav-link>소개</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>교육</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>기술</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="소개">
+
+        <header>
+          <h2 class="h2 article-title">소개</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            저는 김진우입니다.
+          </p>
+
+          <p>
+            현재 성균관대학교 소프트웨어융합대학의 소프트웨어학과에 소속되어 있습니다.
+          </p>
+          <p>
+            관심분야는 웹, DB이고, PM이나 DBA를 꿈꾸고 있습니다.
+          </p>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">수상 내역</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">자격증 취득</h4>
+
+              <span>2020</span>
+
+              <p class="timeline-text">
+                정보처리산업기사 취득
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">자격증 취득</h4>
+
+              <span>2020</span>
+
+              <p class="timeline-text">
+                네트워크관리사2급 취득
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">경력</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">코딩 동아리 CoMit</h4>
+
+              <span>2023-현재</span>
+
+              <p class="timeline-text">
+                동아리에서 웹스터디 진행
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">금융보안원 캠프참가</h4>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                금보원에서 진행하는 '보안에 대한 신기술 동향 프로젝트' 참가 및 장려상 수상
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">편입학 준비</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                전적대로부터의 편입학 준비
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">교육</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">성균관대학교</h4>
+
+              <span>2019 — 현재</span>
+
+              <p class="timeline-text">
+                소프트웨어 전공 및 재학 중
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">서울동성고등학교</h4>
+
+              <span>2016 — 2018</span>
+
+              <p class="timeline-text">
+                서울 혜화동에 위치한 동성고등학교 졸업
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+<!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="교육">
+
+        <header>
+          <h2 class="h2 article-title">교육</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 contacts-item">학위</h3>
+
+          <p class="blog-text">대학교 학사과정 진행 중</p>
+
+          <h3 class="h3 contacts-item">학교</h3>
+
+          <p class="blog-text">성균관대학교</p>
+
+          <h3 class="h3 contacts-item">전공</h3>
+
+          <p class="blog-text">소프트웨어학과</p>
+
+          <h3 class="h3 contacts-item">학점</h3>
+
+          <p class="blog-text">전학기 3.8/4.5</p>
+        </section>
+
+      </article>
+
+      <article class="resume" data-page="기술">
+
+        <header>
+          <h2 class="h2 article-title">기술 스택</h2>
+        </header>
+
+        <section class="skill">
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">웹 프론트 엔드 개발</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">알고리즘</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">DB</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="service">
+
+          <ul class="service-list">
+
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">웹 프론트엔드</h4>
+
+                <p class="service-item-text">
+                  HTML, CSS, JS를 할 줄 압니다.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">파이썬</h4>
+
+                <p class="service-item-text">
+                  파이썬으로 programming하는 걸 선호합니다.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Git/GitHub</h4>
+
+                <p class="service-item-text">
+                  Push/pull rebase merge 등등 잘합니다. 게다가 이 사이트를 GitHub Actions로 만들었습니다.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 contacts-item">이메일</h3>
+
+          <p class="blog-text">jinuhy@naver.com</p>
+
+          <h3 class="h3 contacts-item">GitHub</h3>
+
+          <p class="blog-text">https://github.com/asteriuswoo</p>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
