@@ -15,4 +15,4 @@ jobs:  # 작업들
         uses: peaceiris/actions-gh-pages@v3  # 깃헙 페이지 배포 액션 사용
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}  # 액션에게 레포 권한을 주는 토큰, 자동 생성
-          publish_dir: ./ 디렉터리에 있는 파일들을 깃헙 페이지에 배포, default: public
+          publish_dir: ./ #디렉터리에 있는 파일들을 깃헙 페이지에 배포, default: root
